@@ -201,3 +201,33 @@ body {
 .erro {
   border: 1px solid red;
 }
+
+@media (max-width: 450px) {
+  .containerDois{
+    width: 74.5vw;
+  }
+
+  .cadastrar{
+    width: 55vw;
+  }
+
+  .entrar{
+    width: 55vw;
+  }
+
+  .nmCompleto{
+    width: 52vw;
+  }
+
+  .nmrCelular{
+    width: 52vw;
+  }
+
+  .senha{
+    width: 52vw;
+  }
+
+  .nmUsuario{
+    width: 52vw;
+  }
+}
