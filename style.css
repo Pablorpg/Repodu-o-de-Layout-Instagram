@@ -232,7 +232,7 @@ hr {
   word-spacing: 20px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 451px) {
   .containerDois{
     width: 78vw;
   }
