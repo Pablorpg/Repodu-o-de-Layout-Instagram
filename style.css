@@ -79,6 +79,15 @@ body {
   font-size: 17px;
   font-weight: 500;
   color: rgb(153, 153, 153);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  margin: 0 20px;
+  width: 113px;
+  border: 1px solid rgb(153, 153, 153);;
 }
 
 .nmrCelular {
@@ -174,7 +183,7 @@ body {
 }
 
 .containerDois {
-  width: 18.3vw;
+  width: 20.2vw;
   height: 7vh;
   background-color: none;
   border: 1px solid rgb(199, 199, 199);
@@ -202,9 +211,30 @@ body {
   border: 1px solid red;
 }
 
+.footer{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play{
+  height: 40px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.microsoft{
+  cursor: pointer;
+  height: 40px;
+}
+
+.final{
+  word-spacing: 20px;
+}
+
 @media (max-width: 450px) {
   .containerDois{
-    width: 74.5vw;
+    width: 78vw;
   }
 
   .cadastrar{
@@ -229,5 +259,9 @@ body {
 
   .nmUsuario{
     width: 52vw;
+  }
+
+  .ou{
+    width: 290px;
   }
 }
